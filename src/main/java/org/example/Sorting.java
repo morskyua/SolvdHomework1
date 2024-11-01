@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Sorting {
 
     public static void main(String[] args) {
-        int[] arr = {3, 2, 5, 8, 4, 1};
+        int[] arr = {3, 2, 5, 8, 4, 1, -12, -5};
         System.out.println("Initial array: " + Arrays.toString(arr));
         for (int i = 0; i < arr.length - 1; i++)
             for (int j = 0; j < arr.length - i - 1; j++)
